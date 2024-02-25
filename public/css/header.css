@@ -1,0 +1,35 @@
+header {
+    width: 100%;
+    height: 30%;
+    padding: 3ex;
+    background: -webkit-linear-gradient(left, #a0a0a0, #eff1ef, #eff1ef, #a0a0a0);
+    background: -o-linear-gradient(left, #a0a0a0, #eff1ef, #eff1ef, #a0a0a0);
+    background: -moz-linear-gradient(left, #a0a0a0, #eff1ef, #eff1ef, #a0a0a0);
+    background: linear-gradient(left, #a0a0a0, #eff1ef, #eff1ef, #a0a0a0);
+}
+
+header .row .Account {
+    padding-left: 8%;
+}
+
+header .row .Account .login a:hover {
+    color: #fff;
+}
+
+header .row .Account .btn {
+    font-weight: bold;
+
+}
+
+header .row .Account .Say-Hello {
+    color: #0c0cf0;
+    display: inline;
+    margin: 0 1ex;
+    font-weight: bold;
+}
+
+header .row .Account .Say-Hello .fa-user {
+    color: #ff0000;
+    size: 2.5ex;
+    margin: 0 0.5ex;
+}

@@ -1,0 +1,40 @@
+#delInfor_container {
+    width: 25%;
+    height: 270px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 110px 0 0 37.5%;
+    position: fixed;
+    z-index: 11;
+    display: none;
+    top: 150px;
+}
+
+#delInfor_container input[type=text] {
+    width: 90%;
+}
+
+#delInfor_XSign {
+    position: absolute;
+    margin-left: 97%;
+    cursor: pointer
+}
+
+#delInfor_title {
+    width: 100%;
+    height: 50px;
+    background-color: #09F;
+    color: white;
+    text-align: center;
+    position: relative
+}
+
+#btPay {
+    background-color: #09F;
+    color: white;
+    border: solid 2px black
+}
+
+#btPay:active {
+    background-color: blue;
+}

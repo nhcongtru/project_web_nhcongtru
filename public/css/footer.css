@@ -1,0 +1,43 @@
+.footer {
+    position: static;
+    width: 100%;
+    padding: 4ex 0 1ex 2ex;
+    background-color: #222222;
+    border-top: 2px rgba(192, 192, 192, 1) solid;
+    box-shadow: 0px 0px 4px 2px rgba(128, 128, 102, 0.5);
+}
+
+h5 {
+    color: #008000;
+    font-weight: bold;
+}
+
+hr {
+    border: 1px solid #757474;
+    margin: 1px 0px 10px 0px;
+}
+
+i {
+    margin-left: 6px;
+    margin-right: 8px;
+}
+
+.footer .footer-content {
+    width: 100%;
+    font-family: Arial;
+    color: #eeeeee;
+    line-height: 18px;
+
+}
+
+.footer .footer-content a {
+    color: #fff;
+
+}
+
+.footer .footer-content .link-shortcut {
+    display: block;
+    margin-bottom: 2%;
+    color: #dddddd;
+    text-decoration: none;
+}

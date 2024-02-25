@@ -1,0 +1,102 @@
+.search {
+    margin-top: 3px;
+}
+
+
+.container-fluid .menu {
+    position: sticky;
+    top: 0;
+    padding: 0;
+    background: #333;
+    z-index: 8;
+
+}
+
+.container-fluid .menu .navbar-toggler {
+    background-color: #eee;
+    border: 2px solid #000;
+
+}
+
+.container-fluid nav a {
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Time new Roman;
+    text-shadow: 0 0 1px #000000;
+}
+
+.container-fluid .menu .navbar-brand {
+    width: 3.4%;
+    margin: 0 2ex;
+    color: #ff0000;
+
+}
+
+.container-fluid .menu .collapse,
+.container-fluid .menu .collapse .navbar-nav {
+    padding: 0;
+    margin: 0;
+
+}
+
+.container-fluid .menu .collapse .navbar-nav .nav-item {
+    height: 100%;
+    margin: 0 1.5ex;
+}
+
+.container-fluid .menu .collapse li.active {
+    background-color: #ff0000;
+}
+
+.container-fluid .menu .collapse .navbar-nav .nav-item .nav-link {
+    margin: 5px 0;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container-fluid .menu .collapse ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container-fluid .menu .collapse ul li a:hover {
+    color: #fff;
+}
+
+.container-fluid nav div ul li:hover:not(.active) {
+    background-color: #4CAF50;
+
+}
+
+
+.openBtn {
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 3ex;
+    float: right;
+}
+
+.fa-circle {
+    font-size: 1ch;
+    vertical-align: center;
+    margin-right: 8px;
+}
+
+.container-fluid .menu .icon .icon-button i.fas {
+    font-size: 3.3ex;
+    margin: 0.6ex;
+    text-shadow: none;
+    color: #fff;
+
+}
+
+.container-fluid nav .icon .icon-button i.fas:hover {
+    color: #ffff00;
+
+}
+
+.container-fluid nav div form button.btn {
+    border-radius: 7ex;
+    margin-right: 1ex;
+}
